@@ -1,4 +1,4 @@
-function ROT13(str) {
+function rot13(str) {
   var res = "";
 	for (var i = 0; i < str.length; i++) {
     var ch=str.charCodeAt(i);
