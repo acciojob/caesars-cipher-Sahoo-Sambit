@@ -11,3 +11,5 @@ function rot13() {
 	}
   output.innerText = res;
 }
+
+module.exports=rot13;
